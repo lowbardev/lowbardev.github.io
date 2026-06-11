@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="Daily comic placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f172a" />
+      <stop offset="1" stop-color="#312e81" />
+    </linearGradient>
+    <style>
+      .title{font:700 40px/1.1 Georgia, 'Times New Roman', serif; fill:#e6edf3}
+      .bubble{fill:#0f172a; stroke:#94a3b8; stroke-width:6}
+      .text{font:600 20px/1.2 system-ui, -apple-system, 'Segoe UI', Roboto; fill:#cbd5e1}
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)" />
+  <g transform="translate(60,60)">
+    <rect width="1080" height="480" rx="24" class="bubble" />
+    <text x="40" y="70" class="title">The Daily Comic</text>
+    <text x="40" y="130" class="text">Why did the developer go broke? They used up all their cache!</text>
+    <g transform="translate(800,220)">
+      <circle cx="60" cy="60" r="60" fill="#4f46e5" />
+      <text x="60" y="70" text-anchor="middle" font-weight="800" font-size="36" fill="#fff">:)</text>
+    </g>
+  </g>
+</svg>
